@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -27,5 +28,10 @@ public class MainActivity extends AppCompatActivity {
     public void changeTextButtonClicked(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setText("Button clicked!");
+    }
+
+    public void changeColorButtonClicked(View view) {
+        TextView tvMain = findViewById(R.id.tvMain);
+        tvMain.setTextColor(ContextCompat.getColor(this, R.color.green));
     }
 }
