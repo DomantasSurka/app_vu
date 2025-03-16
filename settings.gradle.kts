@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Applikacija"
+rootProject.name = "FintechApp"
 include(":app")
+ 
