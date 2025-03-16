@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void changeTextButtonClicked(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setText("Button clicked!");
+        aaa
     }
 
     public void changeColorButtonClicked(View view) {
