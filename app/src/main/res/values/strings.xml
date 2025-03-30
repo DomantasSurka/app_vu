@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FintechApp</string>
+    <string name="input_hint">Įveskite tekstą</string>
+    <string name="count_button">Skaičiuoti</string>
+    <string name="words_option">Žodžiai</string>
+    <string name="characters_option">Ženklai</string>
+    <string name="empty_input_warning">Įvesties laukas negali būti tuščias</string>
+    <string name="result_default">Rezultatas: 0</string>
+    <string name="result_text">Rezultatas: %d</string>
 </resources>

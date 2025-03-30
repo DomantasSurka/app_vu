@@ -1,5 +1,6 @@
 package com.example.fintechapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -33,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
     public void changeColorButtonClicked(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setTextColor(ContextCompat.getColor(this, R.color.green));
+    }
+
+    public void openWordCounterActivity(View view) {
+        Intent intent = new Intent(this, WordCounterActivity.class);
+        startActivity(intent);
     }
 }
