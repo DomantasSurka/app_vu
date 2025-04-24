@@ -40,4 +40,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, WordCounterActivity.class);
         startActivity(intent);
     }
+
+    public void openCurrencyRatesActivity(View view) {
+        Intent intent = new Intent(this, CurrencyRatesActivity.class);
+        startActivity(intent);
+    }
+
 }
